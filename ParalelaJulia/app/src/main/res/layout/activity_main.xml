@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:textColor="#FF0000"
+                android:text="@string/javan_polis_centro_comercial" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:textColor="#FF0000"
+                android:text="@string/casa" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/casa"
+                    android:layout_width="196dp"
+                    android:layout_height="193dp"
+                    app:srcCompat="@drawable/casa" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rua Cansada, n°80\nTelefone: 88779955" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/cas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="chama"
+                android:text="Promoção" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:text="@string/casa_em_condominio"
+                android:textColor="#FF0000" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/condominio"
+                    android:layout_width="196dp"
+                    android:layout_height="193dp"
+                    app:srcCompat="@drawable/condominio" />
+
+                <TextView
+                    android:layout_marginTop="45dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rua Sono, n°80\nTelefone: 11223344" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/condo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Promoção" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:textColor="#FF0000"
+                android:text="@string/apartamento" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/apartamento"
+                    android:layout_width="196dp"
+                    android:layout_height="193dp"
+                    app:srcCompat="@drawable/apartamento" />
+
+                <TextView
+                    android:layout_marginTop="35px"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rua Via, n°80\nTelefone: 11889944" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/apart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Promoção" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:textColor="#FF0000"
+                android:text="@string/imovel_comercial" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imovelComercial"
+                    android:layout_width="196dp"
+                    android:layout_height="193dp"
+                    app:srcCompat="@drawable/imovelComercial" />
+
+                <TextView
+                    android:layout_marginTop="35px"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rua Chata, n°80\nTelefone: 44556622" />
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/comercial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=""
+                android:text="Promoção" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

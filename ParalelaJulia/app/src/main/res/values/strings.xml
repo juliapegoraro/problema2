@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ParalelaJulia</string>
+    <string name="javan_polis_centro_comercial">JAVANÓPOLIS - Centro Comercial</string>
+    <string name="casa">CASA</string>
+    <string name="casa_em_condominio">CASA EM CONDOMINIO</string>
+    <string name="apartamento">APARTAMENTO</string>
+    <string name="imovel_comercial">IMOVEL COMERCIAL</string>
+</resources>
